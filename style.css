@@ -1,0 +1,274 @@
+body {
+    background-color: #FDFDFD;
+  }
+
+
+
+h1, h2, h3, p , a{
+  font-family: nunito sans,sans-serif;
+}
+
+p {
+  font-size: 16px;
+}
+
+.site-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background: #1d1e25;
+  z-index: 200;
+  box-shadow: 0 1px 3px rgba(0,0,0,.1);
+
+}
+
+.nav-container {
+  height: 60px;
+  max-width: 1050px;
+  padding: 0 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+/*  -webkit-box-align: center;
+  -ms-flex-align: center;*/
+  align-items: center;
+  text-decoration-line: none;
+}
+
+
+.nav-name a {
+  color: #FDFDFD;
+  text-decoration-line: none;
+  font-size: 20px;
+}
+
+.nav-name a:hover, a:active, a:visited, a:focus {
+  text-decoration-line:none;
+  color: #FDFDFD;
+  opacity: 1;
+}
+
+.nav-links a {
+  font-size: 15px;
+  color: #FDFDFD;
+  text-decoration-line: none;
+  opacity: 0.6;
+  margin: 10px;
+}
+.nav-links a:hover, a:active, a:visited, a:focus {
+text-decoration-line:none;
+color: #FDFDFD;
+opacity: 1;
+
+}
+
+/*-----------------------------banner--------------------------------*/
+
+.site-hero {
+  margin-top: 60px;
+  background: linear-gradient(to bottom right,#292C33,#393d47); /*#39473e.  green*/
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: calc(80vh - 60px);
+}
+
+.site-hero p {
+  color: white;
+}
+
+
+
+.title {
+  color: #ff7517;
+  font-size: 50px;
+  letter-spacing: 4px;
+
+}
+
+.title-1 {
+  color: #8cbeaa;
+  letter-spacing: 8px;
+}
+
+/*--------------------------------------skills-----------------------------------*/
+
+
+.card {
+ /* height: 150px;
+  width: 150px;*/
+/*  flex: 1;*/
+/*  transition: all 200ms ease;*/
+/*  background-color: transparent;
+  background-position: center;
+  border: 1px solid #ebecec;
+  border-radius: 6px;
+  box-shadow: 0 1px 2px rgba(0,0,0,.1);*/
+  text-align: center;
+  margin: 20px;
+}
+
+.card img {
+  height: 100px;
+}
+
+.about {
+  text-align: center;
+  margin: 50px;
+}
+
+/*--------------------------------------Experience-----------------------------------*/
+
+.section-header {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.container, .small-container {
+  max-width: 1050px;
+  padding: 0 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.job {
+  display: flex;
+  flex-direction: row;
+/*  justify-content: space-between;*/
+/*  align-items: center;*/
+  margin-bottom: 50px;
+  background-color: #ecf4f3;
+  border-radius: 3px;
+}
+
+
+.job-company {
+  text-align: center;
+  width: 200px;
+/*  padding-top: 50px;
+  margin-right: 20px;*/
+  padding-bottom: 30px;
+  padding-right: 50px;
+}
+
+.job-company img {
+  width: 150px;
+  border-radius: 4px;
+}
+
+.job-company p {
+  font-size: 16px;
+}
+
+.job-description {
+  line-height: 29px;
+}
+
+form {
+  max-width: 729px;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: #f4f7f8;
+}
+
+input {
+  background: white !important;
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+}
+
+input:hover {
+  border: 1px solid #8cbeaa;
+}
+
+textarea {
+  width: 690px;
+  border: none !important;
+  margin-bottom: 10px;
+
+}
+
+.button {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #58B9A9 !important;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 25%;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+.button:hover {
+  border: 1px solid black;
+}
+.contact {
+  background: #f2f4fb;;
+}
+
+.contact h2 {
+  text-align: center;
+}
+.contact p {
+  text-align: center;
+}
+
+
+/*-------------------------footer-------------------------*/
+
+.foot-site {
+  text-align: center;
+  padding: 2rem 0;
+  background: #1d1e25;
+  color: #909db7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
